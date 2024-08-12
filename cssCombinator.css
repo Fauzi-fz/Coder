@@ -1,0 +1,29 @@
+/*# descendant combinator */
+/* ul li */
+
+/*# child combinator */
+/* ul > li */
+
+/*# sibling combinator */
+/* li ~ li */
+
+/*# adjacent sibling combinator */
+/*# li + li */
+
+/*# menargetkan semua children yg ada didalam div termasuk cucu */
+/* ul li {
+  color: blue;
+} */
+
+/*# menargetkan sibling  */
+/* li ~ li {
+  color: blue;
+} */
+
+/* ul > li {
+  color: blue;
+} */
+
+li + li {
+  color: blue;
+}
